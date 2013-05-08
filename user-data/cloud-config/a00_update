@@ -1,0 +1,6 @@
+#cloud-config
+#ref https://cloudinit.readthedocs.org/en/latest/topics/examples.html
+apt_mirror: http://ubuntu.cs.nctu.edu.tw/ubuntu/
+
+repo_update: true
+

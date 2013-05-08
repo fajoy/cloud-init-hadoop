@@ -1,0 +1,8 @@
+#cloud-config
+#ref http://xebia-france.googlecode.com/svn/training/xebia-spring-travel/trunk/xebia-spring-travel-amazon-aws/src/main/scripts/cloud-config-sample.txt
+chpasswd:
+  list: |
+    ubuntu:RANDOM
+  expire: False
+
+ssh_pwauth: True

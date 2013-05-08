@@ -1,0 +1,7 @@
+#cloud-config
+#ref https://cloudinit.readthedocs.org/en/latest/topics/examples.html
+packages:
+ - git
+ - python-virtualenv
+ - install puppet-common
+

@@ -1,0 +1,3 @@
+#cloud-config
+#ref https://cloudinit.readthedocs.org/en/latest/topics/examples.html
+final_message: "The system is finally up, after $UPTIME seconds"
